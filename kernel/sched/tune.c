@@ -741,17 +741,6 @@ boost_write(struct cgroup_subsys_state *css, struct cftype *cft,
 	return 0;
 }
 
-static u64 prefer_high_cap_read(struct cgroup_subsys_state *css,
-				struct cftype *cft)
-{
-	return 0;
-}
-
-static int prefer_high_cap_write(struct cgroup_subsys_state *css,
-				 struct cftype *cft, u64 prefer_high_cap)
-{
-	return 0;
-}
 
 
 #ifdef CONFIG_STUNE_ASSIST
